@@ -38,3 +38,29 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ******************
+
+// Stack (Primitive), Heap (Non-Primitive)
+let companyName="nucleus"
+
+let anotherCompanyName = companyName
+
+anotherCompanyName =  "sopra"
+
+console.log(companyName);
+
+console.log(anotherCompanyName);
+
+let userOne = {
+    email:"user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "user2@yahoo.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
