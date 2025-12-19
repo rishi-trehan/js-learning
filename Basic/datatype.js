@@ -5,8 +5,14 @@
 
 let name = "rishi"
 let age = 35;
+let age1 = "35";
 let isLoggedIn = true;
+let score = 35;
+console.log(name+age);
 
+console.log(score+age+age1);
+
+console.log(score+age);
 
 // number => 2 to power 52
 // bigint => if number is large
